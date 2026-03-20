@@ -27,6 +27,7 @@ const Services: CollectionConfig = {
 	/* configures admin behavior for easier navigation and display consistency */
 	admin: {
 		defaultColumns: ["title", "createdAt", "updatedAt"],
+		group: "Content",
 		useAsTitle: "title",
 	},
 

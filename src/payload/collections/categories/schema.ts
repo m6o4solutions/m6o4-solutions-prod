@@ -24,6 +24,7 @@ const Categories: CollectionConfig = {
 	admin: {
 		// columns displayed by default in the list view.
 		defaultColumns: ["title", "description", "createdAt", "updatedAt"],
+		group: "Content",
 		// uses the title field as the primary label in the admin ui.
 		useAsTitle: "title",
 	},

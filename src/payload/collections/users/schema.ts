@@ -33,6 +33,7 @@ const Users: CollectionConfig = {
 	admin: {
 		// columns displayed by default in the list view.
 		defaultColumns: ["name", "photo", "email", "createdAt", "updatedAt"],
+		group: "Globals",
 		// determines which field to use as the title in the admin breadcrumbs and ui.
 		useAsTitle: "name",
 	},

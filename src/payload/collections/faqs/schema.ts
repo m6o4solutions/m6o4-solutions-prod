@@ -1,8 +1,5 @@
 import { isAuthenticated, isPublic } from "@/payload/access/access-control";
-import {
-	revalidateFaqChange,
-	revalidateFaqDelete,
-} from "@/payload/collections/faqs/hooks/revalidate-faq";
+import { revalidateFaqChange, revalidateFaqDelete } from "@/payload/collections/faqs/hooks/revalidate-faq";
 import type { CollectionConfig } from "payload";
 
 /**
@@ -23,6 +20,7 @@ const FAQ: CollectionConfig = {
 	admin: {
 		// columns displayed by default in the list view.
 		defaultColumns: ["question", "createdAt", "updatedAt"],
+		group: "Content",
 		// determines which field to use as the title in the admin breadcrumbs and ui.
 		useAsTitle: "question",
 	},

@@ -25,6 +25,7 @@ const Media: CollectionConfig = {
 	admin: {
 		// columns displayed by default in the list view for uploaded files.
 		defaultColumns: ["filename", "alt", "caption", "createdAt", "updatedAt"],
+		group: "Globals",
 		// uses the file name as the primary title in the admin ui.
 		useAsTitle: "filename",
 	},

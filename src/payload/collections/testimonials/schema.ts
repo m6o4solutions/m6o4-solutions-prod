@@ -23,6 +23,7 @@ const Testimonials: CollectionConfig = {
 	/* configures how the collection appears in the payload admin panel */
 	admin: {
 		defaultColumns: ["name", "job", "rating", "createdAt", "updatedAt"],
+		group: "Content",
 		useAsTitle: "name",
 	},
 

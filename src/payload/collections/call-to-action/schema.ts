@@ -24,6 +24,7 @@ const CTA: CollectionConfig = {
 	admin: {
 		// columns displayed by default in the list view.
 		defaultColumns: ["title", "createdAt", "updatedAt"],
+		group: "Content",
 		// determines which field to use as the title in the admin breadcrumbs and ui.
 		useAsTitle: "title",
 	},
