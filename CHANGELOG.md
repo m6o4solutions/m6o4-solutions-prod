@@ -1,3 +1,11 @@
+# [1.34.0](https://github.com/m6o4solutions/m6o4-solutions-prod/compare/v1.33.0...v1.34.0) (2026-03-20)
+
+
+### Features
+
+* **admin:** organize collections into sidebar groups ([a8a61ff](https://github.com/m6o4solutions/m6o4-solutions-prod/commit/a8a61ff3c5d50175c2d15e289f5c87fac5b88bec))
+* **assets:** add project assets ([cb77e08](https://github.com/m6o4solutions/m6o4-solutions-prod/commit/cb77e08961c5f615f078da266e05e6e2e54e9a44))
+
 # [1.33.0](https://github.com/m6o4solutions/m6o4-solutions-web-project/compare/v1.32.0...v1.33.0) (2025-12-26)
 
 
