@@ -1,7 +1,7 @@
 services:
-  m6o4-solutions:
-    image: ghcr.io/m6o4solutions/m6o4-solutions-web-project:latest
-    container_name: m6o4-solutions
+  m6o4-solutions-prod:
+    image: ghcr.io/m6o4solutions/m6o4-solutions-prod:latest
+    container_name: m6o4-solutions-prod
     restart: unless-stopped
     networks:
       - traefik-network
@@ -9,10 +9,10 @@ services:
       - stack.env
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.m6o4-solutions.rule=Host(`m6o4solutions.com`) || Host(`www.m6o4solutions.com`)"
-      - "traefik.http.routers.m6o4-solutions.entrypoints=websecure"
-      - "traefik.http.routers.m6o4-solutions.tls.certresolver=letsencrypt"
-      - "traefik.http.services.m6o4-solutions.loadbalancer.server.port=3000"
+      - "traefik.http.routers.m6o4-solutions-prod.rule=Host(`m6o4solutions.com`) || Host(`www.m6o4solutions.com`)"
+      - "traefik.http.routers.m6o4-solutions-prod.entrypoints=websecure"
+      - "traefik.http.routers.m6o4-solutions-prod.tls.certresolver=letsencrypt"
+      - "traefik.http.services.m6o4-solutions-prod.loadbalancer.server.port=3000"
 
 networks:
   traefik-network:
