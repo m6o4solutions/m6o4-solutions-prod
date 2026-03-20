@@ -18,6 +18,7 @@ const Logos: CollectionConfig = {
 	// configures admin panel appearance for better usability
 	admin: {
 		defaultColumns: ["company", "logo", "createdAt", "updatedAt"],
+		group: "Content",
 		useAsTitle: "company",
 	},
 

@@ -17,6 +17,7 @@ const Work: CollectionConfig = {
 	/* configures how the collection appears within the cms admin interface */
 	admin: {
 		defaultColumns: ["title", "industry", "createdAt", "updatedAt"],
+		group: "Content",
 		useAsTitle: "title",
 	},
 
