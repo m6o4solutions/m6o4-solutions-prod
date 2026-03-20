@@ -1,53 +1,55 @@
 # [1.34.0](https://github.com/m6o4solutions/m6o4-solutions-prod/compare/v1.33.0...v1.34.0) (2026-03-20)
 
-
 ### Features
 
-* **admin:** organize collections into sidebar groups ([a8a61ff](https://github.com/m6o4solutions/m6o4-solutions-prod/commit/a8a61ff3c5d50175c2d15e289f5c87fac5b88bec))
-* **assets:** add project assets ([cb77e08](https://github.com/m6o4solutions/m6o4-solutions-prod/commit/cb77e08961c5f615f078da266e05e6e2e54e9a44))
+- **admin:** organize collections into sidebar groups
+  ([a8a61ff](https://github.com/m6o4solutions/m6o4-solutions-prod/commit/a8a61ff3c5d50175c2d15e289f5c87fac5b88bec))
+- **assets:** add project assets
+  ([cb77e08](https://github.com/m6o4solutions/m6o4-solutions-prod/commit/cb77e08961c5f615f078da266e05e6e2e54e9a44))
 
 # [1.33.0](https://github.com/m6o4solutions/m6o4-solutions-web-project/compare/v1.32.0...v1.33.0) (2025-12-26)
 
-
 ### Features
 
-* add docker-compose configuration for m6o4-solutions service ([16ff1fd](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/16ff1fdae642052a5d5841151b0c17669e26dd3d))
+- add docker-compose configuration for m6o4-solutions service
+  ([16ff1fd](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/16ff1fdae642052a5d5841151b0c17669e26dd3d))
 
 # [1.32.0](https://github.com/m6o4solutions/m6o4-solutions-web-project/compare/v1.31.0...v1.32.0) (2025-12-22)
 
-
 ### Features
 
-* add ClarityTrackerDev component for enhanced user behavior tracking ([e470715](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/e4707156c418fd1721a7beaada4c4851ed2a9185))
-* integrate CollectionCards component and enhance ClarityTracker logic ([89cb900](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/89cb90047a1b21d79e7edbe1a68237a8ef6d1d69))
+- add ClarityTrackerDev component for enhanced user behavior tracking
+  ([e470715](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/e4707156c418fd1721a7beaada4c4851ed2a9185))
+- integrate CollectionCards component and enhance ClarityTracker logic
+  ([89cb900](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/89cb90047a1b21d79e7edbe1a68237a8ef6d1d69))
 
 # [1.31.0](https://github.com/m6o4solutions/m6o4-solutions-web-project/compare/v1.30.0...v1.31.0) (2025-12-19)
 
-
 ### Features
 
-* add ClarityTracker component for user behavior tracking ([556c9b7](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/556c9b7bff52125d1523761d8ef2b8bc300e3432))
+- add ClarityTracker component for user behavior tracking
+  ([556c9b7](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/556c9b7bff52125d1523761d8ef2b8bc300e3432))
 
 # [1.30.0](https://github.com/m6o4solutions/m6o4-solutions-web-project/compare/v1.29.0...v1.30.0) (2025-12-19)
 
-
 ### Features
 
-* update container-retention-policy action to v3.0.1 with improvements ([02da2a4](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/02da2a47eff675804463346e06dc3c29d9e7e228))
+- update container-retention-policy action to v3.0.1 with improvements
+  ([02da2a4](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/02da2a47eff675804463346e06dc3c29d9e7e228))
 
 # [1.29.0](https://github.com/m6o4solutions/m6o4-solutions-web-project/compare/v1.28.0...v1.29.0) (2025-12-19)
 
-
 ### Features
 
-* update GitHub Actions workflows for improved token usage and cleanup ([f5acc6a](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/f5acc6a28114cc169fd467647ab64d830ba0dfee))
+- update GitHub Actions workflows for improved token usage and cleanup
+  ([f5acc6a](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/f5acc6a28114cc169fd467647ab64d830ba0dfee))
 
 # [1.28.0](https://github.com/m6o4solutions/m6o4-solutions-web-project/compare/v1.27.0...v1.28.0) (2025-12-18)
 
-
 ### Features
 
-* add GitHub Actions workflow to build and push Docker image to GHCR ([26a2fce](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/26a2fce7686638c2f4d1bf75af0d673856a4d7ba))
+- add GitHub Actions workflow to build and push Docker image to GHCR
+  ([26a2fce](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/26a2fce7686638c2f4d1bf75af0d673856a4d7ba))
 
 # [1.27.0](https://github.com/m6o4solutions/m6o4-solutions-web-project/compare/v1.26.0...v1.27.0) (2025-11-28)
 
@@ -167,8 +169,7 @@
 
 ### Features
 
-- add testimonials and dynamic service page with benefits, features, pricing, and saas
-  sections
+- add testimonials and dynamic service page with benefits, features, pricing, and saas sections
   ([312a506](https://github.com/m6o4solutions/m6o4-solutions-web-project/commit/312a5067b9faebd32c612678cc5f0c48779639a9))
 
 # [1.15.0](https://github.com/m6o4solutions/m6o4-solutions-web-project/compare/v1.14.0...v1.15.0) (2025-11-04)
